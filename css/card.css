@@ -1,0 +1,63 @@
+.card_list{
+    background-color: white;
+    outline: none;
+    padding: 5%;
+    /*border-bottom: 1px rgba(0, 0, 0, 0.12) solid;*/
+    
+    font-size: 1.3em;
+    float: left;
+    width: 90%;
+    word-break: break-all;
+    margin: 3px 0;
+    border-radius: 25px;
+}
+.card_list:hover{
+    background-color: azure;
+}
+.CARD_LEFT{
+    width: 70%;
+}
+.CARD_RIGHT{
+    width: 30%;
+}
+.card_l_up{
+    float: left;
+    font-size: 0.7em;
+    
+}
+.card_title{
+    float: left;
+    clear: left;
+    
+    width: 80%
+}
+.card_l_down{
+    clear: left;
+    float: left;
+    font-size: 0.7em;
+    
+}
+.card_r_up{
+    float: right;
+    font-size: 0.7em;
+    
+}
+.card_text{
+    clear: right;
+    float: right;
+    
+}
+.card_r_down{
+    clear: right;
+    float: right;
+    font-size: 0.7em;
+    
+}
+.card_compare_subtitle{
+    font-size: 0.7em;
+}
+#CARD_UL li{
+    float: left;
+    clear: both;
+    font-size: 15px;
+}

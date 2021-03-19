@@ -1,0 +1,43 @@
+.selected{
+    background-color:lightsalmon;
+}
+.SUM{
+    background-color:#cfd8dc;
+}
+.WHITE{
+    background-color:white;
+}
+.WHEAT{
+    background-color:wheat;
+}
+.current,.td_selected{
+    background-color:wheat;
+
+}
+.RED{
+    background-color: #ec407a;
+}
+.FM_SELECT{
+    background-color:azure;
+}
+
+
+.tr_checked{
+    background-color: #DCEDC8;
+}
+.DISABLED_COLOR{
+    background-color:#e0e0e0;
+}
+.TD_I_COLOR{
+    background-color: #4db6ac;
+}
+.BLUE{
+    background-color: #B2DFDB;
+}
+.salmon,.item_focus{
+    background-color:lightsalmon;
+
+}
+.new_data{
+    background-color: #B2DFDB;
+}

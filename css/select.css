@@ -1,0 +1,27 @@
+select {
+  background: transparent;
+  border: 1px solid #e0f2f1;
+  padding: 5px 16px;
+}
+select option {
+  padding: 5px 16px;
+}
+select:focus {
+  background-color: white;
+  color: black;
+  box-shadow: 0 2px 2px #009688;
+}
+select:hover {
+  border: 1px solid #009688;
+}
+.fm_selector {
+  position: absolute;
+  overflow: auto;
+  background-color: white;
+  font-size: 14px;
+}
+.fm_selector {
+  max-height: 300px;
+  max-width: 400px;
+  box-shadow: 0 0 15px #4db6ac;
+}

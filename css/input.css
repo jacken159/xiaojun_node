@@ -1,0 +1,122 @@
+input[type='text'],
+input[type='number'] {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #b2dfdb;
+  background-color: inherit;
+  margin: 4px;
+  width: 150px;
+  outline-style: none;
+}
+input[type='text']:focus,
+input[type='number']:focus {
+  border-bottom: 1px solid #009688;
+}
+input[type='text']:disabled,
+input[type='number']:disabled {
+  border-bottom: 1px dotted #ccc;
+}
+input[type='textarea'] {
+  border: 0 none;
+  height: 55px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: inherit;
+}
+label {
+  position: relative;
+}
+textarea {
+  resize: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+input[type='password'] {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ccc;
+  background-color: inherit;
+  margin: 4px 0;
+}
+
+input[type='password']:focus {
+  border-bottom: 1px solid #009688;
+}
+input[type='password']:disabled {
+  border-bottom: 1px dotted #ccc;
+}
+
+input[type='checkbox'] {
+  position: absolute;
+  margin: 1em;
+  position: relative;
+  /*padding: 5px 0 0 50px;*/
+  line-height: 2em;
+  height: 0;
+  width: 0;
+}
+input[type='checkbox']:before {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  top: -20px;
+  width: 40px; /* x*5 */
+  height: 24px; /* x*3 */
+  border-radius: 16px; /* x*2 */
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+input[type='checkbox']:after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: -20px;
+  width: 24px; /* x*3 */
+  height: 24px; /* x*3 */
+  border-radius: 16px; /* x*2 */
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+input[type='checkbox']:hover:after {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+input[type='checkbox']:checked:after {
+  margin-left: 16px;
+}
+input[type='checkbox']:checked:before {
+  background: #4db6ac;
+}
+
+button {
+  border-radius: 50px;
+  background-color: initial;
+  border: 1px #009688 solid;
+  color: #009688;
+  outline: none;
+}
+button:hover {
+  background-color: #b2dfdb;
+}
+
+input[type='date'] {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #b2dfdb;
+  background-color: inherit;
+  margin: 4px;
+  width: 150px;
+  outline-style: none;
+}

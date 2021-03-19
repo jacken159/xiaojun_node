@@ -1,0 +1,255 @@
+.IMG_SIZE {
+  height: 60px;
+  width: 60px;
+}
+.ICON {
+  height: 40px;
+  width: 40px;
+}
+.ICON:hover,
+.icon_20:hover {
+  background-color: #b2dfdb;
+}
+.icon_20 {
+  width: 20px;
+  height: 20px;
+}
+.ICON_120 {
+  width: 120px;
+  height: 120px;
+}
+
+.DF_COTENT {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 1180px;
+  height: 82%;
+  background-color: white;
+  box-shadow: 0 0 15px #4db6ac;
+  top: 13%;
+}
+.DF_SELECT {
+  color: white;
+  left: 15%;
+  position: absolute;
+  top: 20%;
+}
+
+.save_icon {
+  background: url(../img/IMG.png) no-repeat 0px 0px;
+}
+.PRINT {
+  background: url(../img/IMG.png) no-repeat -60px 0px;
+}
+.PRE {
+  background: url(../img/IMG.png) no-repeat -120px 0px;
+}
+.next_icon {
+  background: url(../img/IMG.png) no-repeat -180px 0px;
+}
+
+.prev_icon {
+  background: url(../img/IMG.png) no-repeat -120px 0px;
+}
+.next_icon {
+  background: url(../img/IMG.png) no-repeat -180px 0px;
+}
+.FOLDER_ICON {
+  background: url(../img/IMG.png) no-repeat -240px 0px;
+}
+.info_icon {
+  background: url(../img/IMG.png) no-repeat -300px 0px;
+}
+.less_icon {
+  background: url(../img/IMG.png) no-repeat -360px 0px;
+}
+
+.quote_icon {
+  background: url(../img/IMG.png) no-repeat -420px 0px;
+}
+
+.RMB_ICON {
+  background: url(../img/IMG.png) no-repeat -480px 0px;
+}
+
+.filter_icon {
+  background: url(../img/IMG.png) no-repeat -540px 0px;
+}
+
+.more_icon {
+  background: url(../img/IMG.png) no-repeat 0px -60px;
+}
+.camera_icon {
+  background: url(../img/IMG.png) no-repeat -60px -60px;
+}
+.menu_side {
+  background: url(../img/IMG.png) no-repeat -120px -60px;
+}
+.select_all_icon {
+  background: url(../img/IMG.png) no-repeat -180px -60px;
+}
+.select_none_icon {
+  background: url(../img/IMG.png) no-repeat -240px -60px;
+}
+
+.SELECTED_ICON {
+  background: url(../img/IMG.png) no-repeat -300px -60px;
+}
+
+.LIST_ICON {
+  background: url(../img/IMG.png) no-repeat -360px -60px;
+}
+.right_icon {
+  background: url(../img/right.png) no-repeat;
+}
+
+.E_ICON {
+  background: url(../img/IMG.png) no-repeat -480px -60px;
+}
+.display_icon {
+  background: url(../img/IMG.png) no-repeat -540px -60px;
+}
+
+.PLUS {
+  background: url(../img/IMG.png) no-repeat 0px -120px;
+}
+.cancel {
+  background: url(../img/IMG.png) no-repeat -60px -120px;
+}
+
+.delete_icon {
+  background: url(../img/IMG.png) no-repeat -120px -120px;
+}
+.sh_icon {
+  background: url(../img/IMG.png) no-repeat -180px -120px;
+}
+.add_icon {
+  background: url(../img/IMG.png) no-repeat -240px -120px;
+}
+.minus_icon {
+  background: url(../img/IMG.png) no-repeat -300px -120px;
+}
+.zero_icon {
+  background: url(../img/IMG.png) no-repeat -360px -120px;
+}
+.not_zero_icon {
+  background: url(../img/IMG.png) no-repeat -420px -120px;
+}
+.flush_icon {
+  background: url(../img/IMG.png) no-repeat -480px -120px;
+}
+
+.UNDO {
+  background: url(../img/IMG.png) no-repeat -540px -120px;
+}
+
+.download_icon {
+  background: url(../img/IMG.png) no-repeat -300px -180px;
+}
+
+.GL {
+  height: 40px;
+  width: 40px;
+  background: url(../img/IMG.png) no-repeat -180px -120px;
+  float: right;
+}
+
+.CHECK {
+  background: url(../img/IMG.png) no-repeat 0px -180px;
+}
+
+.EDIT {
+  background: url(../img/IMG.png) no-repeat -120px -180px;
+}
+.toggle_off_icon {
+  background: url(../img/IMG.png) no-repeat -180px -180px;
+}
+.toggle_on_icon {
+  background: url(../img/IMG.png) no-repeat -240px -180px;
+}
+.BB {
+  background: url(../img/IMG.png) no-repeat -300px -60px;
+}
+.LIST_ICON1 {
+  background: url(../img/IMG.png) no-repeat -360px -180px;
+}
+.MENU_ICON {
+  background: url(../img/IMG.png) no-repeat -480px -180px;
+}
+.MATCH_ICON {
+  background: url(../img/IMG.png) no-repeat -540px -180px;
+}
+.EMPTY_ICON {
+  background: url(../img/IMG.png) no-repeat -540px -240px;
+}
+.replace_icon {
+  background: url(../img/IMG.png) no-repeat -420px -180px;
+}
+
+.WINDOWS {
+  background: url(../img/IMG.png) no-repeat -300px -300px;
+}
+
+.NAV_LOGO {
+  background: url(../img/IMG.png) no-repeat 0px -325px;
+}
+.ALERT_EMAIL {
+  background: url(../img/IMG.png) no-repeat -180px -325px;
+}
+.ALERT_PASSWORD {
+  background: url(../img/IMG.png) no-repeat -240px -325px;
+}
+.JCFJB {
+  background: url(../img/IMG.png) no-repeat 0px -360px;
+}
+.SYB {
+  background: url(../img/IMG.png) no-repeat -120px -360px;
+}
+.YGLLB {
+  background: url(../img/IMG.png) no-repeat -240px -360px;
+}
+.SDSBB {
+  background: url(../img/IMG.png) no-repeat -360px -360px;
+}
+.JJSBB {
+  background: url(../img/IMG.png) no-repeat -480px -360px;
+}
+.SP {
+  background: url(../img/IMG.png) no-repeat -0px -540px;
+}
+.YM {
+  background: url(../img/IMG.png) no-repeat -120px -540px;
+}
+.CL {
+  background: url(../img/IMG.png) no-repeat -240px -540px;
+}
+.CF {
+  background: url(../img/IMG.png) no-repeat -360px -540px;
+}
+.SC {
+  background: url(../img/IMG.png) no-repeat -480px -540px;
+}
+
+.SHJJ {
+  background: url(../img/IMG.png) no-repeat -180px -660px;
+}
+.D_ARROW {
+  background: url(../img/IMG.png) no-repeat -120px -660px;
+}
+.R_ARROW {
+  background: url(../img/IMG.png) no-repeat -240px -660px;
+}
+.U_ARROW {
+  background: url(../img/IMG.png) no-repeat -360px -660px;
+}
+
+#os_buttons .button {
+  float: left;
+  padding: 0px 5px;
+}
+
+#swift_button .button{
+  float: left;
+  padding: 0px 5px;
+}
